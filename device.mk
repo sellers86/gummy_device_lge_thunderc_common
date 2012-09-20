@@ -1,5 +1,5 @@
 $(call inherit-product, build/target/product/languages_small.mk)
-$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+$(call inherit-product, vendor/Gummy/products/common_phone.mk)
 
 PRODUCT_LOCALES := en_US es_ES
 
