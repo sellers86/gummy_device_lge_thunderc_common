@@ -67,8 +67,8 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 50000
 #JIT
 WITH_JIT := true
 JS_ENGINE := v8
-HTTP := chrome
-ENABLE_JSC_JIT := true
+#HTTP := chrome
+#ENABLE_JSC_JIT := true
 
 #Enable OpenGL Hardware Acceleration
 #msm7x27: no support for overlay, bypass, or c2d
