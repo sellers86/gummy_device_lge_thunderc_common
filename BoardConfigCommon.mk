@@ -83,6 +83,11 @@ BOARD_NO_ALLOW_DEQUEUE_CURRENT_BUFFER := true
 #TouchScreen
 BOARD_USE_LEGACY_TOUCHSCREEN := true
 
+# FM Radio
+BOARD_FM_DEVICE := bcm4325
+BOARD_HAVE_FM_RADIO := false
+BOARD_GLOBAL_CFLAGS += -DHAVE_FM_RADIO
+
 #Mass Storage
 BOARD_USE_USB_MASS_STORAGE_SWITCH := true
 BOARD_UMS_LUNFILE := /sys/devices/platform/msm_hsusb/gadget/lun0/file
